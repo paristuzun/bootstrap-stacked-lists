@@ -1,0 +1,140 @@
+   
+body {
+    font-family: Inter,proxima-nova,"Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
+    color: #363636;
+    padding-top: 110px;
+    line-height: 1.6;
+    font-size: 1rem;
+}
+
+/* Layout */
+ul.wrap {
+    margin-left: 2.1rem;
+}
+
+ul {
+    padding: 0;
+}
+
+ul.wrap li {
+    text-indent: -.76em;
+    margin-bottom: 0.8rem;
+}
+
+.right-0 {
+    right: 0!important;
+}
+.top-0 {
+    top: 0!important;
+}
+
+/* Colors */
+
+.text-white {
+    color: #fff!important;
+}
+
+.bg-aws-blue {
+    background-color: #0d1d2d!important;
+}
+
+.text-nobel {
+    color: #a3a3a3!important;
+    font-weight: 600;
+}
+
+.btn-spring {
+    color: #fff;
+    background-color: #179de5;
+    border-color: #179de5;
+}
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.btn-group-lg>.btn, .btn-lg {
+    padding: .8rem 1.2rem;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+
+/* Typography */
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    line-height: 1.1;
+}
+
+@media (min-width: 992px) {
+.h1, h1 {
+    font-size: 3.5rem;
+}
+}
+.h1, h1 {
+    font-size: 2.8rem;
+}
+
+.h3, h3 {
+    font-size: 1.5rem;
+}
+
+.lead {
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.fw-500 {
+    font-weight: 500;
+}
+
+a {
+    font-weight: 500;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+.fa-check::before {
+    font-family: FontAwesome;
+    content: "\f00c";
+    display: inline-block;
+    padding-right: 3px;
+    vertical-align: middle;
+}
+
+ul.wrap li .fa {
+    padding-right: .5rem;
+}
+.text-orange {
+    color: #ec7211!important;
+}
+
+.fa {
+    display: inline-block;
+    font: 14px/1;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+@media (min-width: 768px) {
+    body {
+        font-size: 0.9rem;
+         }
+}  
+
+
